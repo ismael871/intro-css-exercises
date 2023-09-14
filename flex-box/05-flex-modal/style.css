@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 html, body {
   height: 100%;
@@ -84,14 +84,16 @@ button.cancel {
 .header {
     font-weight: bold;
     font-size: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .text {
     margin-bottom: 16px;
 }
 
-.icon, .close-button {
+.icon {
     flex-shrink: 0;
 }
 
